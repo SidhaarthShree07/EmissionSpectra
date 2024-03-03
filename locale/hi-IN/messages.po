@@ -1,0 +1,554 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: d\n"
+"POT-Creation-Date: 2017-06-07 14:04+0530\n"
+"PO-Revision-Date: 2017-06-07 14:04+0530\n"
+"Last-Translator: \n"
+"Language-Team: d\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;gt.gettext\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: view.js:159
+msgid "Vernier 1"
+msgstr "वर्नेयर 1"
+
+#: view.js:160
+msgid "Vernier 2"
+msgstr "वर्नेयर 2"
+
+#: view.js:175
+msgid "help1"
+msgstr "स्लाइडर का मूल्य 12 से समायोजित करके टेलीस्कोप को कैलिब्रेट करें"
+
+#: view.js:175
+msgid "help2"
+msgstr "प्रयोग शुरू करने के लिए स्टार्ट बटन पर क्लिक करें"
+
+#: view.js:175
+msgid "help3"
+msgstr "ड्रॉपडाउन सूची से दीपक चुनें"
+
+#: view.js:175
+msgid "help4"
+msgstr "प्रकाश पर स्विच / स्विच ऑफ लाइट बटन का उपयोग करके स्विच चालू / बंद करें।"
+
+#: view.js:175
+msgid "help5"
+msgstr "प्लेस ग्रेटिंग बटन पर क्लिक करके झंझरी मेज पर झंझरी रखें।"
+
+#: view.js:175
+msgid "help6"
+msgstr "टेलीस्कोप के कोण के स्लाइडर मूल्य समायोजित करके टेलीस्कोप के कोण को सेट करें।"
+
+#: view.js:175
+msgid "help7"
+msgstr "वर्नर टेबल के स्लाइडर का उपयोग करके वर्नर टेबल के कोण को समायोजित करें।"
+
+#: view.js:175
+msgid "Next"
+msgstr "आगामी"
+
+#: view.js:175
+msgid "Close"
+msgstr "बंद करे"
+
+#: view.js:175
+msgid "help8"
+msgstr ""
+"दूरबीन के बेहतरीन कोण को सेट करने के लिए, स्लाइडर 'टेलीस्कोप के ठीक कोण' का मूल्य "
+"समायोजित करें"
+
+#: view.js:175
+msgid "help9"
+msgstr "टेलीस्कोप को जांचना या प्रयोग को रीसेट करना, कैलिब्रेट टेलीकॉसी बटन पर क्लिक करें"
+
+#: view.js:176
+msgid "Emission spectra"
+msgstr "उत्सर्जन स्पेक्ट्रा"
+
+#: view.js:177
+msgid "Variables"
+msgstr "उत्सर्जन स्पेक्ट्रा..."
+
+#: view.js:178
+msgid "Result"
+msgstr "परिणाम"
+
+#: view.js:179
+msgid "copyright"
+msgstr "कॉपीराइट © अमृता विश्वविद्यालय 200 9 - 2015"
+
+#: view.js:180
+msgid "Calibrate Telescope"
+msgstr "टेलिस्कोप कैलिब्रेट करें"
+
+#: view.js:181
+msgid "Calibrate Telescope :"
+msgstr "टेलिस्कोप कैलिब्रेट करें:"
+
+#: view.js:182
+msgid "Select Lamp :"
+msgstr "दीपक चुनें:"
+
+#: view.js:183
+msgid "Switch On Light"
+msgstr "लाइट पर स्विच करें"
+
+#: view.js:184
+msgid "Switch Off Light"
+msgstr "स्विच ऑफ लाइट"
+
+#: view.js:185
+msgid "Place grating"
+msgstr "जगह झंझरी"
+
+#: view.js:186
+msgid "Remove grating"
+msgstr "झंझरी निकालें"
+
+#: view.js:187
+msgid "Angle of Telescope :"
+msgstr "टेलीस्कोप के कोण:"
+
+#: view.js:188
+msgid "Angle of Vernier Table :"
+msgstr "वर्नेर तालिका का कोण:"
+
+#: view.js:189
+msgid "Fine Angle of Telescope :"
+msgstr "दूरबीन के ठीक कोण:"
+
+#: view.js:190
+msgid "Start"
+msgstr "प्रारंभ"
+
+#: view.js:191
+msgid "Reset"
+msgstr "प्रारंभ..."
+
+#: view.js:193
+msgid "Mercury"
+msgstr "पारा"
+
+#: view.js:196
+msgid "Hydrogen"
+msgstr "हाइड्रोजन"
+
+#: view.js:199
+msgid "Neon"
+msgstr "नीयन"
+
+#~ msgid "START"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "help10"
+#~ msgstr ""
+#~ "टेलीस्कोप को जांचना या प्रयोग को रीसेट करना, कैलिब्रेट टेलीकॉसी बटन पर क्लिक करें"
+
+#~ msgid "help11"
+#~ msgstr "Select check box, 'Show result' gives the result."
+
+#~ msgid "MM     SS     MS"
+#~ msgstr "MM     SS     MS"
+
+#~ msgid "Deflection Magnetometer"
+#~ msgstr "Deflection Magnetometer"
+
+#~ msgid "Vibration Magnetometer"
+#~ msgstr "Vibration Magnetometer"
+
+#~ msgid "Mass of the magnet:"
+#~ msgstr "Mass of the magnet:"
+
+#~ msgid "Length of the magnet:"
+#~ msgstr "Length of the magnet:"
+
+#~ msgid "Breadth of the magnet:"
+#~ msgstr "Breadth of the magnet:"
+
+#~ msgid "cm"
+#~ msgstr "cm"
+
+#~ msgid "g"
+#~ msgstr "g"
+
+#~ msgid "Show Result"
+#~ msgstr "Show Result"
+
+#~ msgid "Place Second Magnet"
+#~ msgstr "Place Second Magnet"
+
+#~ msgid "Position of magnetometer:"
+#~ msgstr "Position of magnetometer:"
+
+#~ msgid "Rotation angle:"
+#~ msgstr "Rotation angle:"
+
+#~ msgid "Distance:"
+#~ msgstr "Distance:"
+
+#~ msgid "Reverse the magnet"
+#~ msgstr "Reverse the magnet"
+
+#~ msgid "Object zoom:"
+#~ msgstr "Object zoom:"
+
+#~ msgid "Time period: "
+#~ msgstr "Time period: "
+
+#~ msgid "Moment of inertia(I): "
+#~ msgstr "Moment of inertia(I): "
+
+#~ msgid "s"
+#~ msgstr "s"
+
+#~ msgid "kgm"
+#~ msgstr "kgm"
+
+#~ msgid "Moment of the magnet(m): "
+#~ msgstr "Moment of the magnet(m): "
+
+#~ msgid "Horizontal intensity: "
+#~ msgstr "Horizontal intensity: "
+
+#~ msgid "Am"
+#~ msgstr "Am"
+
+#~ msgid "T"
+#~ msgstr "T"
+
+#~ msgid "Magnetic Field Along The Axis of A Circular Coil Carrying Current"
+#~ msgstr "Magnetic Field Along The Axis of A Circular Coil Carrying Current"
+
+#~ msgid "Number of turns of the coil"
+#~ msgstr "Number of turns of the coil"
+
+#~ msgid "Initial Adjustment"
+#~ msgstr "Initial Adjustment"
+
+#~ msgid "Insert Key"
+#~ msgstr "Insert Key"
+
+#~ msgid "Radius of the coil "
+#~ msgstr "Radius of the coil "
+
+#~ msgid "Compass box position "
+#~ msgstr "Compass box position "
+
+#~ msgid "Adjust rheostat"
+#~ msgstr "Adjust rheostat"
+
+#~ msgid "Rotate compass box"
+#~ msgstr "Rotate compass box"
+
+#~ msgid "Rotate apparatus"
+#~ msgstr "Rotate apparatus"
+
+#~ msgid "Magnetic field at x, B(T)"
+#~ msgstr "Magnetic field at x, B(T)"
+
+#~ msgid "Show Normal"
+#~ msgstr "Show Normal"
+
+#~ msgid "Zoom compass"
+#~ msgstr "Zoom compass"
+
+#~ msgid "Remove Key"
+#~ msgstr "Remove Key"
+
+#~ msgid "Circular Coil"
+#~ msgstr "Circular Coil"
+
+#~ msgid "Temperature (Y axis) Vs Time (X axis)"
+#~ msgstr "Temperature (Y axis) Vs Time (X axis)"
+
+#~ msgid "Time (in minutes)"
+#~ msgstr "Time (in minutes)"
+
+#~ msgid "Temperature"
+#~ msgstr "Temperature"
+
+#~ msgid "Start Experiment"
+#~ msgstr "Start Experiment"
+
+#~ msgid "Measurements"
+#~ msgstr "Measurements"
+
+#~ msgid "Thermometer reading:"
+#~ msgstr "Thermometer reading:"
+
+#~ msgid "Show Graph"
+#~ msgstr "Show Graph"
+
+#~ msgid "Brass"
+#~ msgstr "Brass"
+
+#~ msgid "Water"
+#~ msgstr "Water"
+
+#~ msgid "Plot Graph"
+#~ msgstr "Plot Graph"
+
+#~ msgid "Newton's Law of Cooling"
+#~ msgstr "Newton's Law of Cooling"
+
+#~ msgid "Select material:"
+#~ msgstr "Select material:"
+
+#~ msgid "Select liquid:"
+#~ msgstr "Select liquid:"
+
+#~ msgid "Copper"
+#~ msgstr "Copper"
+
+#~ msgid "Aluminium"
+#~ msgstr "Aluminium"
+
+#~ msgid "Silver"
+#~ msgstr "Silver"
+
+#~ msgid "Milk"
+#~ msgstr "Milk"
+
+#~ msgid "Vegetable oil"
+#~ msgstr "Vegetable oil"
+
+#~ msgid "Olive oil"
+#~ msgstr "Olive oil"
+
+#~ msgid "Start Heating"
+#~ msgstr "Start Heating"
+
+#~ msgid "Stop Heating"
+#~ msgstr "Stop Heating"
+
+#~ msgid "STOP"
+#~ msgstr "STOP"
+
+#~ msgid "Stop Plotting"
+#~ msgstr "Stop Plotting"
+
+#~ msgid "Thermometer reading: "
+#~ msgstr "Thermometer reading:"
+
+#~ msgid "Power on"
+#~ msgstr "Power on"
+
+#~ msgid "Emissivity of the test plate:"
+#~ msgstr "Emissivity of the test plate:"
+
+#~ msgid "Iron"
+#~ msgstr "Iron"
+
+#~ msgid "Steel"
+#~ msgstr "Steel"
+
+#~ msgid "Heat Transfer by Radiation"
+#~ msgstr "Heat Transfer by Radiation"
+
+#~ msgid "Choose material:"
+#~ msgstr "Choose material:"
+
+#~ msgid "Thickness of the plates (cm):"
+#~ msgstr "Thickness of the plates (cm):"
+
+#~ msgid "Chamber temperature :"
+#~ msgstr "Chamber temperature :"
+
+#~ msgid "Show result"
+#~ msgstr "Show result"
+
+#~ msgid "Solution Controls"
+#~ msgstr "Solution Controls"
+
+#~ msgid "Select Environment"
+#~ msgstr "Select Environment"
+
+#~ msgid "Select type of test"
+#~ msgstr "Select type of test"
+
+#~ msgid "Enter the readings:"
+#~ msgstr "Enter the readings:"
+
+#~ msgid "Gravitational Mass (in g):"
+#~ msgstr "Gravitational Mass (in g):"
+
+#~ msgid "Volume (in ml):"
+#~ msgstr "Volume (in ml):"
+
+#~ msgid "Density (g/cc):"
+#~ msgstr "Density (g/cc):"
+
+#~ msgid "1cubic centimetre=1ml"
+#~ msgstr "1cubic centimetre=1ml"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Earth (9.8m/s&#178;)"
+#~ msgstr "Earth (9.8m/s&#178;)"
+
+#~ msgid "Moon (1.6m/s&#178;)"
+#~ msgstr "Moon (1.6m/s&#178;)"
+
+#~ msgid "Mercury (3.7m/s&#178;)"
+#~ msgstr "Mercury (3.7m/s&#178;)"
+
+#~ msgid "Find Mass"
+#~ msgstr "Find Mass"
+
+#~ msgid "Find Volume"
+#~ msgstr "Find Volume"
+
+#~ msgid "Determination of Density of Solid"
+#~ msgstr "Determination of Density of Solid"
+
+#~ msgid "SAVE"
+#~ msgstr "SAVE"
+
+#~ msgid "FULLSCREEN"
+#~ msgstr "FULLSCREEN"
+
+#~ msgid "EXIT"
+#~ msgstr "EXIT"
+
+#~ msgid ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+#~ msgstr ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+
+#~ msgid ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+#~ msgstr ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+
+#~ msgid ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+#~ msgstr ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+
+#~ msgid ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+#~ msgstr ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+
+#~ msgid "Density, D(g/cc) = m/v = mass divided by volume"
+#~ msgstr "Density, D(g/cc) = m/v = mass divided by volume"
+
+#~ msgid "Please enter the values"
+#~ msgstr "Please enter the values"
+
+#~ msgid "Good! Answer is correct"
+#~ msgstr "Good! Answer is correct"
+
+#~ msgid "Try Again!"
+#~ msgstr "Try Again!"
+
+#~ msgid "Cylinder"
+#~ msgstr "Cylinder"
+
+#~ msgid "Lock"
+#~ msgstr "Lock"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Stone"
+#~ msgstr "Stone"
+
+#~ msgid "Bob"
+#~ msgstr "Bob"
+
+#, fuzzy
+#~ msgid "Plants"
+#~ msgstr "Plants"
+
+#, fuzzy
+#~ msgid "Animals"
+#~ msgstr "Animals"
+
+#, fuzzy
+#~ msgid "2 hours"
+#~ msgstr "2 hours"
+
+#, fuzzy
+#~ msgid "Role of Carbon Dioxide During Respiration"
+#~ msgstr "Role of Carbon Dioxide During Respiration"
+
+#, fuzzy
+#~ msgid "Number of grasshoppers:"
+#~ msgstr "Number of grasshoppers:"
+
+#, fuzzy
+#~ msgid "Select the indicator:"
+#~ msgstr "Select the indicator:"
+
+#, fuzzy
+#~ msgid "Grasshopper"
+#~ msgstr "Grasshopper"
+
+#, fuzzy
+#~ msgid "Human being"
+#~ msgstr "Human being"
+
+#, fuzzy
+#~ msgid "Lime water"
+#~ msgstr "Lime water"
+
+#~ msgid "Click on the information icon to see the inference."
+#~ msgstr "Click on the information icon to see the inference."
+
+#, fuzzy
+#~ msgid "Number of seeds : 10"
+#~ msgstr "Number of seeds : 10"
+
+#, fuzzy
+#~ msgid "Number of seeds : "
+#~ msgstr "Number of seeds : "
+
+#, fuzzy
+#~ msgid "Number of grasshoppers : "
+#~ msgstr "Number of grasshoppers : "
+
+#, fuzzy
+#~ msgid ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+#~ msgstr ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
