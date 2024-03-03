@@ -88,7 +88,7 @@ msgstr "Result"
 
 #: view.js:179
 msgid "copyright"
-msgstr "Copyright © Amrita University 2009 - 2015"
+msgstr "Opensource Labify"
 
 #: view.js:180
 msgid "Calibrate Telescope"
