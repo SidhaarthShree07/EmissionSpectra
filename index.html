@@ -38,8 +38,8 @@
 </script>
 </head>
 
-<body style="background-color: #f2f2f2;" ng-app="starterApp" ng-controller="UserController as ul">
-<md-toolbar class="md-toolbar-tools" id="main">
+<body style="background-color: #242424" ng-app="starterApp" ng-controller="UserController as ul">
+<md-toolbar class="md-toolbar-tools" id="main" style="background-color: #242424; color: wheat;">
     <md-button class="md-icon-button" hide-gt-md ng-click="ul.toggleList()" aria-label="Show User List">
         <md-icon md-svg-icon="menu"></md-icon>
     </md-button>
@@ -52,68 +52,68 @@
         <md-icon md-svg-icon="fullscreen"></md-icon>
     </md-button>
 </md-toolbar>
-<md-content flex layout="row" style="background-color: #f2f2f2;">
-<md-content id="content" layout="column" style="background-color: #f2f2f2;">
+<md-content flex layout="row" style="background-color: #242424; color: wheat;">
+<md-content id="content" layout="column" style="background-color: #242424; color: wheat;">
     <canvas id="demoCanvas" width="700" height="700" align="center" layout-fill experiment></canvas>
     <div id="Copyright">{{copyright}}</div>
 </md-content>
-<md-sidenav id="site-sidenav" class="site-sidenav md-sidenav-left" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')">
+<md-sidenav id="site-sidenav" class="site-sidenav md-sidenav-left" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')" style="background-color: #242424;">
 <div>
-    <md-button id="variables" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle1()">{{variables}}
+    <md-button id="variables" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle1()" style="background-color: #2d2d2d; color: wheat;">{{variables}}
         <span aria-hidden="true">
 <md-icon md-svg-src="md-toggle-arrow"  aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive1]" ></md-icon>
 </span></md-button>
       
       <!-- ////////////   -->
-      <div ng-hide="showVariables" class="div">
-        <div ng-hide="scene_one_hide">
+      <div ng-hide="showVariables" class="div" style="background-color: #2d2d2d; color: wheat;">
+        <div ng-hide="scene_one_hide" style="background-color: #2d2d2d; color: wheat;">
             <!-- Slider label for mass of weight hanger -->
-            <md-content class="md-title selectable" layout-padding >{{calibrate_slider_txt}}  {{calibration_value}}</md-content>
+            <md-content class="md-title selectable" layout-padding style="background-color: #2d2d2d; color: wheat;">{{calibrate_slider_txt}}  {{calibration_value}}</md-content>
             <!-- Slider for mass of weight hanger -->
             <div layout>      
                 <md-slider flex id="slider" ng-disabled="control_disable" ng-model="calibration_value" step="1" min="0" max="20" aria-label="rating" ng-change="calibration();"></md-slider>        
             </div>
             <!-- Button for start experiment  -->
             <section layout="row" layout-align="center center">
-              <md-button class="md-raised" id="reset_btn" ng-click="startExperiment();">{{start_txt}}</md-button>
+              <md-button class="md-raised" id="reset_btn" ng-click="startExperiment();" style="background-color: black; color: wheat;">{{start_txt}}</md-button>
             </section>
             <!-- Button for reset experiment  -->
             <section layout="row" layout-align="center center">
-              <md-button class="md-raised"  id="reset_btn" ng-click="calibrateTelescope();">{{reset_txt}}</md-button>
+              <md-button class="md-raised"  id="reset_btn" ng-click="calibrateTelescope();" style="background-color: black; color: wheat;">{{reset_txt}}</md-button>
             </section>
         </div>
-        <div ng-show="scene_two_hide">
+        <div ng-show="scene_two_hide"  style="background-color: #2d2d2d; color: wheat;">
             <!-- Insert dropdown label for lamp -->
-            <md-content class="md-title selectable" layout-padding>{{select_lamp_txt}}</md-content>
+            <md-content class="md-title selectable" layout-padding  style="background-color: #2d2d2d; color: wheat;">{{select_lamp_txt}}</md-content>
             <!-- Insert dropdown box for lamp -->
             <md-select placeholder="{{lamp_array[0].lamp}}"ng-model="lamp" ng-change="changeLamp();" aria-label="environment" layout="row" layout-align="center" id="lamp">
                 <md-option ng-repeat="x in lamp_array" value="{{ x.index }}" label="{{x.index}}">{{ x.lamp }}</md-option>
             </md-select>
             <!-- Button for switch on light  -->
-            <section layout="row" layout-align="center center">
-              <md-button class="md-raised" ng-model = "lightOn" id="reset_btn" ng-click="lightOnOff();">{{light_on_off_txt}}</md-button>
+            <section layout="row" layout-align="center center" >
+              <md-button class="md-raised" ng-model = "lightOn" id="reset_btn" ng-click="lightOnOff();"  style="background-color: black; color: wheat;">{{light_on_off_txt}}</md-button>
             </section>
             <!-- Button for place grating  -->
             <section layout="row" layout-align="center center">
-              <md-button class="md-raised" ng-model = "gratingPlaced" id="reset_btn" ng-click="placeGrating();" style="padding:0 13px;">{{grating_txt}}</md-button>
+              <md-button class="md-raised" ng-model = "gratingPlaced" id="reset_btn" ng-click="placeGrating();"  style="background-color: black; color: wheat;">{{grating_txt}}</md-button>
             </section>
 
             <!-- Slider label for angle of telescope -->
-            <md-content class="md-title selectable" layout-padding >{{telescope_angle_txt}}  {{telescope_angle}}</md-content>
+            <md-content class="md-title selectable" layout-padding  style="background-color: #2d2d2d; color: wheat;">{{telescope_angle_txt}}  {{telescope_angle}}</md-content>
             <!-- Slider for angle of telescopt -->
             <div layout>      
                 <md-slider flex ng-model="telescope_angle" step="0.01" min="0" max="180" aria-label="rating" ng-change="changeTelescopeAngle();"></md-slider>        
             </div> 
 
             <!-- Slider label for angle of vernier table -->
-            <md-content class="md-title selectable" layout-padding >{{vernier_table_angle_txt}}  {{vernier_table_angle}}</md-content>
+            <md-content class="md-title selectable" layout-padding  style="background-color: #2d2d2d; color: wheat;">{{vernier_table_angle_txt}}  {{vernier_table_angle}}</md-content>
             <!-- Slider for angle of telescopt -->
             <div layout>      
                 <md-slider flex ng-model="vernier_table_angle" step="0.3" min="-30" max="30" aria-label="rating" ng-change="changeVernierTableAngle();"></md-slider>        
             </div> 
 
             <!-- Slider label for fine angle of telescope -->
-            <md-content class="md-title selectable" layout-padding >{{fine_angle_txt}}  {{fine_angle}}</md-content>
+            <md-content class="md-title selectable" layout-padding  style="background-color: #2d2d2d; color: wheat;">{{fine_angle_txt}}  {{fine_angle}}</md-content>
             <!-- Slider for angle of telescopt -->
             <div layout>      
                 <md-slider flex ng-disabled ="fine_disable" ng-model="fine_angle" step="0.1" min="-20" max="20" aria-label="rating" ng-change="fineAngle();"></md-slider>        
@@ -121,20 +121,20 @@
 
             <!-- Button for calibrate telescope  -->
             <section layout="row" layout-align="center center">
-              <md-button class="md-raised" id="reset_btn" ng-click="calibrateTelescope();">{{calibrate_txt}}</md-button>
+              <md-button class="md-raised" id="reset_btn" ng-click="calibrateTelescope();"  style="background-color: black; color: wheat;">{{calibrate_txt}}</md-button>
             </section>
         </div>
       </div>      
       <!-- ////////////   -->
       
-    <md-button id="result" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle()">{{result}}
+    <md-button id="result" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle()" style="background-color: #2d2d2d; color: wheat;">{{result}}
       <span aria-hidden="true">
         <md-icon md-svg-src="md-toggle-arrow"   aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive]" ></md-icon>
       </span> 
     </md-button>
         <!-- //inset result label //   -->       
         <div ng-hide="showValue" class="div">
-					 <md-content id="resultSection" class="md-title selectable" layout-padding><p>Number of grating per metre, N= mλ/sin(Θ)</p></md-content>
+					 <md-content id="resultSection" class="md-title selectable" layout-padding  style="background-color: #2d2d2d; color: wheat;"><p>Number of grating per metre, N= mλ/sin(Θ)</p></md-content>
         </div>
     </div>
   </md-sidenav>
