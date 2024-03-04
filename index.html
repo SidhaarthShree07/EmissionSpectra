@@ -75,7 +75,7 @@
             </div>
             <!-- Button for start experiment  -->
             <section layout="row" layout-align="center center">
-              <md-button class="md-raised" ng-disabled="start_btn_disable" id="reset_btn" ng-click="startExperiment();">{{start_txt}}</md-button>
+              <md-button class="md-raised" id="reset_btn" ng-click="startExperiment();">{{start_txt}}</md-button>
             </section>
             <!-- Button for reset experiment  -->
             <section layout="row" layout-align="center center">
@@ -127,14 +127,14 @@
       </div>      
       <!-- ////////////   -->
       
-    <md-button id="result" class="md-raised md-primary toolbarbutton subTitle" >
+    <md-button id="result" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle()">{{result}}
       <span aria-hidden="true">
         <md-icon md-svg-src="md-toggle-arrow"   aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive]" ></md-icon>
       </span> 
     </md-button>
         <!-- //inset result label //   -->       
         <div ng-hide="showValue" class="div">
-            
+					 <md-content id="resultSection" class="md-title selectable" layout-padding><p>Number of grating per metre, N= mλ/sin(Θ)</p></md-content>
         </div>
     </div>
   </md-sidenav>
